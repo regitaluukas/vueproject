@@ -1,8 +1,8 @@
 <template>
   <div class="home">
   <div class="user">
-    <img v-bind:src="'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png'" alt="profile picture">
-      <p>User Name</p>
+    <img v-bind:src="'https://i.pinimg.com/750x/3e/2e/8c/3e2e8c6fa626636eb4e8bdfe78edab3b.jpg'" alt="profile picture">
+      <p>Mary-Beth</p>
       <p id="logout">Log Out</p>
   </div>
     <post_compo  :postsList="postsList"> </post_compo>
@@ -30,19 +30,16 @@ export default {
 
 <style scoped>
 .home {
-background-color: rgb(226, 226, 226);
-background-image: url("https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/double-bubble-outline.png");
+background-color: rgb(223, 213, 220);
 }
 
 .user {
   text-align: center;
   position: fixed;
-  margin: 5px;
-  height: 140px;
+  height: 100%;
   width: 140px;
-  background-color: rgb(233, 236, 241);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
-  border-radius: 50%;
 }
 
 .user p {
@@ -57,7 +54,10 @@ background-image: url("https://storage.googleapis.com/subtlepatterns-production/
 }
 
 .user img {
-  width: 60px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .post {

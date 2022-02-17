@@ -69,8 +69,8 @@ IncreaseLikes: function(post) {
 }
 
 #posts_container {
-  background-color: rgba(255, 255, 255, 0.705);
-  margin: auto;
+  background-color: rgba(255, 255, 255, 0.562);
+  margin-left: 330px;
   width: 62%;
   display: flex;
   flex-direction: column;

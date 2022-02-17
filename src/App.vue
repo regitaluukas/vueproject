@@ -50,7 +50,7 @@ body {
     a {
 
       font-weight: bold;
-      color: #979797;
+      color: #3a3a3a;
       text-decoration: none;
     }
 }
